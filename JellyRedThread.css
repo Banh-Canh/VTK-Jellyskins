@@ -1,0 +1,195 @@
+:root {
+  --primary-color: linear-gradient(to right, #200122, #6f0000);
+  --secondary-color: linear-gradient(to right, rgba(0,0,0,1), rgba(0, 0, 0, 0.5));
+  --header-color: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(67, 67, 67, 0.0));
+  --selected-color: linear-gradient(to right, #e52d27, #b31217);
+  --hover-color: linear-gradient(to right, #e52d27, #b31217);
+  --default-text-color: white;
+  --secondary-text-color: #DC143C
+}
+
+:root {
+    --swiper-theme-color: var(--selected-color);
+}
+
+/* Background */
+
+.backgroundContainer.withBackdrop, .backdropContainer, .backgroundContainer {
+    background: var(--primary-color);
+}
+.backdropImage {
+    filter: blur(0px) saturate(105%) contrast(115%) brightness(20%);
+}
+body,.preload
+{background: var(--primary-color);}
+
+/* header */
+.skinHeader
+{background: var(--header-color);}
+
+/*menu */
+.skinHeader,
+html, 
+.emby-tab-button,
+.paper-icon-button-light:hover:not(:disabled),
+.button-submit:focus,
+.checkboxListLabel, 
+.inputLabel, 
+.inputLabelUnfocused, 
+.paperListLabel, 
+.textareaLabelUnfocused,
+.cardText-secondary, 
+.fieldDescription, 
+.guide-programNameCaret, 
+.listItem,
+.secondary, 
+.nowPlayingBarSecondaryText, 
+.programSecondaryTitle, 
+.secondaryText
+{color: var(--default-text-color);}
+
+.button-link, 
+.emby-tab-button-active, 
+.emby-tab-button.show-focus:focus, 
+.emby-tab-button:hover,
+.mdl-slider,
+.inputLabelFocused, 
+.selectLabelFocused, 
+.textareaLabelFocused,
+.textActionButton:hover
+{color: var(--secondary-text-color);}
+
+.textActionButton:hover 
+{text-decoration: none;}
+
+.emby-input:focus, .emby-textarea:focus,
+.emby-checkbox:checked + span + .checkboxOutline,
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline
+{border-color: var(--selected-color);}
+
+
+.pageTitleWithDefaultLogo 
+{background-image: url(assets/img/banner-light.png);}
+
+.actionSheetMenuItem:hover,
+
+.raised.emby-button:hover, 
+.navMenuOption-selected,
+.paper-icon-button-light:hover:not(:disabled),
+.button-submit:focus,
+.countIndicator, 
+.fullSyncIndicator, 
+.playedIndicator,
+.emby-checkbox:checked + span + .checkboxOutline, 
+.itemProgressBarForeground,
+.listItemBody:hover
+{
+  background: var(--selected-color) !important;
+  border-radius:25px;
+}
+
+.navMenuOption.emby-button:hover, 
+.navMenuOption:hover
+{
+ transform: scale(1.1);
+ background: rgba(0,0,0,0);
+}
+
+.mainDrawer, 
+.emby-input, 
+.emby-textarea, 
+.emby-select, 
+.navMenuOption-selected, 
+.paperList, 
+.detailRibbon,
+.collapseContent, 
+.formDialogFooter:not(.formDialogFooter-clear), 
+.formDialogHeader:not(.formDialogHeader-clear), 
+.paperList, 
+.visualCardBox,
+.fab, 
+.raised,
+.cardBox, 
+.cardBox-bottompadded,
+.dialog, 
+.nowPlayingContextMenu, 
+.nowPlayingPlaylist
+{ background: var(--secondary-color);}
+
+/* Disable carousel for libraries */
+@media all and (min-width: 50em) {
+  .homePage .emby-scroller {
+    margin-right: 0;
+  }
+  .homePage .emby-scrollbuttons {
+    display: none;
+  }
+  .homePage .itemsContainer {
+    flex-wrap: wrap;
+  }
+}
+
+/*Rounded corners and square hover buttons*/
+
+.cardContent-button,
+.cardContent-shadow,
+.itemDetailImage,
+.cardOverlayButton-hover,
+.cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog,
+.fab, .raised,
+.cardBox, .cardBox-bottompadded,
+.paperList
+{
+    border-radius: 10px !important;
+}
+
+.itemProgressBarForeground
+{
+	box-shadow: 0 0 5px 1px var(--selected-color);
+}
+
+
+.dialog,
+.cardBox, 
+.cardBox-bottompadded
+.skinHeader
+{
+	box-shadow: 0 0 5px 1px black;
+}
+
+.itemsContainer.scrollSlider.focuscontainer-x.animatedScrollX
+{
+	padding-left: 10px;
+}
+
+.cardText
+{
+	padding:.3em 0.5em;
+}
+
+/* Size episode preview images in a more compact way */
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.listItem-content {height: 115px;}
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
+/* Narrow the login form */
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
