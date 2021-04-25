@@ -9,7 +9,13 @@ Color easily customizable by editing :root variables.
 Copy and paste the css file content in the related field in Jellyfin general server settings or download the file and put it in the webroot folder and fill this same field with:
 
 ```css
-import 'JellyRedThread.css'
+@import 'JellyRedThread.css';
+```
+
+Or use the following link:
+
+```css
+@import 'https://vtk-jellyskins.netlify.app/assets/css/JellyRedThread.css';
 ```
 
 ## Screenshots
