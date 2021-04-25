@@ -65,10 +65,6 @@ html,
 .emby-checkbox:focus:not(:checked) + span + .checkboxOutline
 {border-color: var(--selected-color);}
 
-
-.pageTitleWithDefaultLogo 
-{background-image: url("assets/img/banner-light.png");}
-
 .actionSheetMenuItem:hover,
 
 .raised.emby-button:hover, 
