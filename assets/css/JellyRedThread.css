@@ -20,8 +20,6 @@
 .backdropImage {
     filter: blur(0px) saturate(105%) contrast(115%) brightness(20%);
 }
-body,.preload
-{background: var(--primary-color);}
 
 /* header */
 .skinHeader
