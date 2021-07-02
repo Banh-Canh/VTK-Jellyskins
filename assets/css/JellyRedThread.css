@@ -75,7 +75,11 @@ html,
 .fullSyncIndicator, 
 .playedIndicator,
 .emby-checkbox:checked + span + .checkboxOutline, 
-.itemProgressBarForeground,
+.itemProgressBarForeground
+{
+  background: var(--selected-color) !important;
+  border-radius:25px;
+}
 
 .navMenuOption.emby-button:hover, 
 .navMenuOption:hover
