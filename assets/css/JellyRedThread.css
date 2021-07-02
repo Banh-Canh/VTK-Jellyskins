@@ -37,7 +37,11 @@
 }
 
 /* icon bg */
-.defaultCardBackground2{background-color: var(--selected-color); }
+.defaultCardBackground1,
+.defaultCardBackground2,
+.defaultCardBackground3,
+.defaultCardBackground4
+{background-color: var(--selected-color);}
 
 /*menu */
 .skinHeader,
