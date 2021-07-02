@@ -79,7 +79,7 @@ div[data-role="controlgroup"] a.ui-btn-active
 .selectLabelFocused, 
 .textareaLabelFocused,
 .textActionButton:hover,
-textareaLabelfocused,
+.textareaLabelfocused,
 {color: var(--secondary-text-color) !important;}
 
 .textActionButton:hover 
