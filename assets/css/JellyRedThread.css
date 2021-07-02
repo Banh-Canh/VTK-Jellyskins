@@ -378,7 +378,6 @@ html,
     font-size: 90% !important;
   }
 }
-
 .cardPadder {
   background-color: #0000 !important; box-shadow: none !important;
 }
@@ -437,7 +436,6 @@ html,
     height: calc(40vw - 0.6em) !important;
   }
 }
-
 /*Size episode preview images in a more compact way*/
 .listItem:hover {
 	transition: 0.2s; background: rgba(0, 0, 0, 0.4);
@@ -478,6 +476,48 @@ html,
     padding: .3em .6em;
     border-radius: var(--rounding);
     color: #fff;
+}
+/*Blur backdrops, feel free to edit the intensity of the blur/saturation/dimming*/
+.backdropImage {
+  filter: blur(60px) saturate(200%) contrast(160%) brightness(25%);
+}
+.backgroundContainer.withBackdrop {
+  background-color: rgba(0,0,0,0);
+}
+/*Narrow the login form, size according to display size (bigger on mobile)*/
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+/*Hide "please login" text, margin is to prevent login form moving too far up*/
+#loginPage h1 {
+  display: none
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px
+}
+/*Hide "manual" and "forgot" buttons}*/
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  display: none
+}
+/*Modified progress bar, play and item menu buttons*/
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+  border-radius: 0px !important; 
+  background: rgba(0,0,0,0.7);
+}
+.itemProgressBar {
+  height: 2000em;
+  background: #0000;
+}
+.playbackProgress>div {
+  background-color: rgba(255,255,255,0.75);
+}
+.transcodingProgress>div, .itemProgressBarForeground {
+  background-color: rgba(255,255,255,0.3);
+}
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+  border-radius: 0px !important; 
+  background: rgba(0,0,0,0);
 }
 /**
        >>>>  https://github.com/CTalvio/Monochromic <<<<<< END
