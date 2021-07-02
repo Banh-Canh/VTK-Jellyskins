@@ -529,6 +529,20 @@ div[data-role="controlgroup"] a.ui-btn-active
   border-radius: 0px !important; 
   background: rgba(0,0,0,0);
 }
+/*Fix the UI shifting around*/
+.nowPlayingBarCurrentTime {
+    width: 6em;
+}
+.osdTextContainer {
+    margin: 0 !important;
+    margin-top: 0.2em !important;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+}
+/*Fix top right user icon when using a profile image*/
+.headerUserButtonRound {
+  border-radius: 50px !important;
+}
 /**
        >>>>  https://github.com/CTalvio/Monochromic <<<<<< END
 **/
