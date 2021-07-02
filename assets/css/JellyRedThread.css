@@ -23,10 +23,7 @@
 
 /* header */
 .skinHeader
-{
-  background: none !important; 
-  background-color: rgba(0, 0, 0, 0) !important;
-}
+{background: var(--header-color);}
 .headerTabs.sectionTabs {
   text-size-adjust: 110%;
   font-size: 110%;
