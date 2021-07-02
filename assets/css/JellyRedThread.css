@@ -43,7 +43,7 @@
 .defaultCardBackground3,
 .defaultCardBackground4,
 .defaultCardBackground5
-{background-color: var(--selected-color);}
+{background-color: var(--selected-color) !important;}
 
 /*menu */
 .skinHeader,
