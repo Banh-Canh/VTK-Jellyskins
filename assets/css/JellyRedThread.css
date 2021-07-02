@@ -46,7 +46,7 @@
 .defaultCardBackground5,
 div.details-additionalContent-withbackdrop .cardContent-shadow, 
 div.details-additionalContent-withbackdrop .defaultCardBackground0
-{background-color: var(--selected-color) !important;}
+{background-color: rgba(0,0,0,0) !important;}
 
 /*menu */
 .skinHeader,
