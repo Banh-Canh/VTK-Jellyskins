@@ -22,7 +22,7 @@
 }
 
 /* header */
-.semiTransparent,
+.skinHeader.semiTransparent,
 .skinHeader
 {background: var(--header-color);}
 .headerTabs.sectionTabs {
