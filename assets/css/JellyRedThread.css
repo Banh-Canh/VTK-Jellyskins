@@ -75,7 +75,6 @@ html,
 .selectLabelFocused, 
 .textareaLabelFocused,
 .textActionButton:hover,
-div[data-role="controlgroup"] a.ui-btn-active
 {color: var(--secondary-text-color) !important;}
 
 .textActionButton:hover 
@@ -96,10 +95,10 @@ div[data-role="controlgroup"] a.ui-btn-active
 .fullSyncIndicator, 
 .playedIndicator,
 .emby-checkbox:checked + span + .checkboxOutline, 
-.itemProgressBarForeground
+.itemProgressBarForeground,
+div[data-role="controlgroup"] a.ui-btn-active
 {
   background: var(--selected-color) !important;
-  border-radius:25px;
 }
 
 .navMenuOption.emby-button:hover, 
