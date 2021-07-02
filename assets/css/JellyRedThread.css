@@ -76,7 +76,7 @@ html,
 .textareaLabelFocused,
 .textActionButton:hover,
 div[data-role="controlgroup"] a.ui-btn-active
-{color: var(--secondary-text-color);}
+{color: var(--secondary-text-color) !important;}
 
 .textActionButton:hover 
 {text-decoration: none;}
