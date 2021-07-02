@@ -38,11 +38,14 @@
 
 /* icon bg */
 .defaultCardBackground
+.defaultCardBackground0,
 .defaultCardBackground1,
 .defaultCardBackground2,
 .defaultCardBackground3,
 .defaultCardBackground4,
-.defaultCardBackground5
+.defaultCardBackground5,
+div.details-additionalContent-withbackdrop .cardContent-shadow, 
+div.details-additionalContent-withbackdrop .defaultCardBackground0
 {background-color: var(--selected-color) !important;}
 
 /*menu */
