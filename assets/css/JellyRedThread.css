@@ -63,7 +63,8 @@ html,
 .secondary, 
 .nowPlayingBarSecondaryText, 
 .programSecondaryTitle, 
-.secondaryText
+.secondaryText,
+div[data-role="controlgroup"] a.ui-btn-active
 {color: var(--default-text-color);}
 
 .button-link, 
