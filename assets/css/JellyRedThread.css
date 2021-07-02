@@ -27,6 +27,17 @@
   background: none !important; 
   background-color: rgba(0, 0, 0, 0) !important;
 }
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto; 
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.7em;
+}
 
 /*menu */
 .skinHeader,
