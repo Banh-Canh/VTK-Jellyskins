@@ -65,7 +65,7 @@ html,
 .programSecondaryTitle, 
 .secondaryText,
 div[data-role="controlgroup"] a.ui-btn-active
-{color: var(--default-text-color);}
+{color: var(--default-text-color) !important;}
 
 .button-link, 
 .emby-tab-button-active, 
