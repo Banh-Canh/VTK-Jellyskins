@@ -45,7 +45,8 @@
 .defaultCardBackground4,
 .defaultCardBackground5,
 div.details-additionalContent-withbackdrop .cardContent-shadow, 
-div.details-additionalContent-withbackdrop .defaultCardBackground0
+div.details-additionalContent-withbackdrop .defaultCardBackground0,
+.listItemIcon:not(.listItemIcon-transparent)
 {background-color: rgba(0,0,0,0) !important;}
 
 /*menu */
