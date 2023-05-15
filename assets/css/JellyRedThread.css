@@ -172,12 +172,6 @@ div[data-role="controlgroup"] a.ui-btn-active
     border-radius: 10px !important;
 }
 
-.itemProgressBarForeground
-{
-	box-shadow: 0 0 5px 1px var(--selected-color);
-}
-
-
 .dialog,
 .cardBox, 
 .cardBox-bottompadded
