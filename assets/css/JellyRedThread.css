@@ -100,8 +100,7 @@ div[data-role="controlgroup"] a.ui-btn-active
 .countIndicator, 
 .fullSyncIndicator, 
 .playedIndicator,
-.emby-checkbox:checked + span + .checkboxOutline, 
-.itemProgressBarForeground,
+.emby-checkbox:checked + span + .checkboxOutline,
 div[data-role="controlgroup"] a.ui-btn-active
 {
   background: var(--selected-color) !important;
