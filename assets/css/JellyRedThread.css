@@ -68,10 +68,10 @@ html,
 .nowPlayingBarSecondaryText, 
 .programSecondaryTitle, 
 .secondaryText,
+.button-link, 
 div[data-role="controlgroup"] a.ui-btn-active
 {color: var(--default-text-color) !important;}
 
-.button-link, 
 .emby-tab-button-active, 
 .emby-tab-button.show-focus:focus, 
 .emby-tab-button:hover,
